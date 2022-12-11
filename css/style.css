@@ -1,0 +1,174 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins-regular';
+}
+img{
+  width: 100%;
+}
+body{
+  background-color: #edf0f5;
+}
+
+header{
+  background-color: #3c599d;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px 5px 0;
+}
+.logo{
+  width: 100%;
+  max-width: 250px;
+}
+.mobile-menu{
+  align-self: center;
+  background-color: #3f63b7;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+}
+.header-form form{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  color: #fff;
+  gap: 20px;
+}
+.header-form form input{
+  display: block;
+  outline: none;
+  padding: 3px 10px;
+}
+.header-form form button{
+  align-self: center;
+  background-color: #3f63b7;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.header-form form label{
+  font-size: 14px;
+}
+.header-form form .form-control p{
+  font-size: 14px;
+  color: rgb(197, 195, 195);
+}
+
+main{
+  display: flex;
+  width: 95%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.left-side{
+  flex: 1;
+  padding-top: 50px;
+}
+.left-side h1{
+  font-size: 30px;
+  padding-bottom: 35px;
+}
+.facebook-info-item{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+}
+.facebook-info-item p{
+  font-weight: 900;
+}
+.facebook-info-item p span{
+  font-weight: 400;
+  padding-left: 20px;
+  font-size: 14px;
+  color: rgb(121, 118, 118);
+}
+
+.right-side{
+  flex: 1;
+  padding-top: 10px;
+  justify-self: flex-end;
+  padding-left: 100px;
+}
+.right-side h1{
+  font-size: 2rem;
+}
+.right-side p{
+  /* font-size: 20px; */
+  /* padding: 10px 0 20px 0; */
+  padding: 5px 0 10px;
+}
+.right-side form{
+  /* background-color: aquamarine; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+}
+.right-side form input{
+  width: 100%;
+  outline: none;
+  font-size: 1.1rem;
+  color: rgb(134, 133, 133);
+  padding: 5px 10px;
+  border: 1px solid #000;
+}
+.form-control-3, .form-control-4, .form-control-5, .form-control-6, .form-control-7{
+  grid-column: 1 / -1;
+}
+.form-control-5{
+  padding-top: 10px;
+}
+.form-control-5 .select-dob{
+  display: flex;
+  align-items: center;
+}
+.form-control-5 .select-dob select{
+  padding: 3px 10px;
+  font-size: 17px;
+  border: 1px solid black;
+}
+.form-control-5 .select-dob p{
+  font-size: 15px;
+  padding: 10px 55px 10px 10px;
+}
+.form-control-6{
+  display: flex;
+  gap: 30px;
+  padding: 10px 0;
+}
+.form-control-6 .gender{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.form-control-6 .gender input[type="radio"]{
+  width: unset;
+}
+.form-control-7 p{
+  font-size: 14px;
+}
+.form-control-7 input[type="button"]{
+  width: unset;
+  padding: 10px 20px;
+  background-color: #63a454;
+  color: #fff;
+  border: none;
+  box-shadow: 2px 2px #375f2e;
+  cursor: pointer;
+}
+.cap p{
+  font-size: 14px;
+}

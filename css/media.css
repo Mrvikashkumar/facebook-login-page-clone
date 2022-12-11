@@ -1,0 +1,75 @@
+@media screen and (max-width: 950px) {
+  main{
+    flex-direction: column;
+  }
+  .left-side{
+    width: 90%;
+    max-width: 700px;
+    margin-inline: auto;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+  }
+  .facebook-info-item{
+    /* justify-content: center; */
+  }
+  .right-side{
+    padding-left: 0;
+    width: 90%;
+    max-width: 700px;
+    margin-inline: auto;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 800px){
+  header{
+    height: 11vh;
+
+  }
+  .mobile-menu{
+    display: block;
+  }
+  .header-form{
+    position: absolute;
+    background-color: #3C599D;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 89vh;
+    display: none;
+  }
+  .header-form form{
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+  }
+  .header-form form input{
+    width: 100%;
+  }
+  .header-form form .form-control{
+    width: 90%;
+    max-width: 500px;
+  }
+  .header-form form button{
+    width: 90%;
+    max-width: 500px;
+  }
+  #menu:checked ~ .header-form{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo{
+    width: 150px;
+  }
+  .left-side .facebook-info-item{
+    flex-direction: column;
+  }
+  .right-side form{
+    grid-template-columns: 1fr;
+  }
+  .form-control-5 .select-dob{
+    flex-wrap: wrap;
+  }
+}
